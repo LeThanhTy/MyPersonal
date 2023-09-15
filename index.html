@@ -1,236 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="Png/resume.png">
     <title>My Personal</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-size: 100%;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        ol {
+            list-style-type: square;
+            display: inline-block;
+            padding-right: 140px;
+            margin-left: 20px;
+            margin-top: 0px;
+            padding-bottom: 300px;
+            border-radius: 25px;
+            border-style: solid;
+            border-color: white;
+
+        }
+
+        ul {
+            list-style-type: decimal;
+            display: block;
+            margin-left: 50px;
+            margin-top: 70px;
+        }
+
+        li {
+            line-height: 2.5;
+            color: white;
+            font-size: 35px;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #01585d;
+            text-align: center;
+            padding: 40px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 40px;
+            font-size: 30px;
+        }
+
+        .container {
+            padding: 15px;
+        }
+
+        #fimg {
+            background-color: #006574;
+            width: 100% 50px;
+            padding: 25px 25px;
+            background-image: linear-gradient(to bottom, #1f3b5e, #33789e);
+        }
+
+        h1 {
+            color: white;
+            font-size: 70px;
+            font-family: Tahoma, sans-serif;
+        }
+
+        h2 {
+            color: rgb(0, 64, 38);
+            font-size: 50px;
+
+            font-family: Tahoma, sans-serif;
+            text-align: left;
+            margin-left: 100px;
+        }
+
+        h3 {
+            color: white;
+            font-size: 50px;
+            font-family: Tahoma, sans-serif;
+            text-align: center;
+
+        }
+
+        h5 {
+            font-size: 45px;
+            font-family: Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+            padding: 100px;
+            background-color: #1f3b5e;
+            border-radius: 30px;
+            margin: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #bottom {
+            bottom: 0;
+        }
+
+        h4 {
+            font-size: 25px;
+            font-family: Tahoma, sans-serif;
+            text-align: left;
+            margin-left: 50px;
+        }
+
+        p {
+            line-height: 1.25;
+            font-size: 35px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        #blc {
+            float: left;
+            padding-left: 10px;
+            padding-top: 350px;
+
+        }
+
+        #bl {
+            background-color: #006161;
+            height: 750px;
+            padding: 25px 25px;
+            border-radius: 25px;
+            background-image: linear-gradient(to top, #002132, #5789a5);
+        }
+
+        #blw {
+            background-color: #ffffff;
+            height: 500px;
+            padding: 25px 25px;
+            border-radius: 25px;
+
+        }
+
+        #blw1 {
+            background-color: #4d747e;
+            height: 650px;
+            padding: 25px 25px;
+            border-radius: 25px;
+
+        }
+
+        #block2 {
+            background-color: #006161;
+            height: 700px;
+            padding: 25px 25px;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+
+        .content {
+            display: none;
+        }
+
+        .img2 {
+            align-items: center;
+            background-color: #ffffff;
+            height: 100px;
+            border-radius: 25px;
+            width: 60%;
+            height: 650px;
+            margin-left: 0px;
+            float: left;
+        }
+
+        .img1 {
+            align-items: center;
+            width: 560px;
+            height: 490px;
+            float: right;
+            margin-right: 10px;
+            margin-top: 0px;
+            border-radius: 100%;
+        }
+
+        #left1 {
+            float: left;
+            margin-left: 30px;
+        }
+
+        #right1 {
+            float: right;
+            margin-right: 30px;
+        }
+
+        #center1 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .block3 {
+            background-color: #295a5f;
+            height: 1000px;
+            width: 90%;
+            padding: 25px 25px;
+            background-image: linear-gradient(to top, #011e42, #33789e);
+            border-radius: 25px;
+            margin-top: 50px;
+            border-style: groove;
+            border-width: 10px;
+        }
+
+        .block4 {
+            background-color: #295a5f;
+            height: 900px;
+            width: 90%;
+            padding: 25px 25px;
+            background-image: linear-gradient(to top, #10058b, #1d648b);
+            border-radius: 25px;
+            margin-top: 50px;
+            border-style: groove;
+            border-width: 10px;
+        }
+    </style>
+
+
 </head>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-size: 100%;
-        color: black;
-        margin: 0;
-        padding: 0;
-    }
-
-    ol {
-        list-style-type: square;
-        display: inline-block;
-        padding-right: 140px;
-        margin-left: 20px;
-        margin-top: 0px;
-        padding-bottom: 300px;
-        border-radius: 25px;
-        border-style: solid;
-        border-color: white;
-
-    }
-
-    ul {
-        list-style-type: decimal;
-        display: block;
-        margin-left: 50px;
-        margin-top: 70px;
-    }
-
-    li {
-        line-height: 2.5;
-        color: white;
-        font-size: 35px;
-        margin: 20px;
-    }
-
-    header {
-        text-align: center;
-        padding: 10px;
-    }
-
-    nav {
-        background-color: #01585d;
-        text-align: center;
-        padding: 40px;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin: 0 40px;
-        font-size: 30px;
-    }
-
-    .container {
-        padding: 15px;
-    }
-
-    #fimg {
-        background-color: #006574;
-        width: 100% 50px;
-        padding: 25px 25px;
-        background-image: linear-gradient(to bottom, #1f3b5e, #33789e);
-    }
-
-    h1 {
-        color: white;
-        font-size: 70px;
-        font-family: Tahoma, sans-serif;
-    }
-
-    h2 {
-        color: rgb(0, 64, 38);
-        font-size: 50px;
-
-        font-family: Tahoma, sans-serif;
-        text-align: left;
-        margin-left: 100px;
-    }
-
-    h3 {
-        color: white;
-        font-size: 50px;
-        font-family: Tahoma, sans-serif;
-        text-align: center;
-
-    }
-
-    h5 {
-        font-size: 45px;
-        font-family: Tahoma, sans-serif;
-        text-align: center;
-        color: white;
-        padding: 100px;
-        background-color: #1f3b5e;
-        border-radius: 30px;
-        margin: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    #bottom {
-        bottom: 0;
-    }
-
-    h4 {
-        font-size: 25px;
-        font-family: Tahoma, sans-serif;
-        text-align: left;
-        margin-left: 50px;
-    }
-
-    p {
-        line-height: 1.25;
-        font-size: 35px;
-        margin-top: 10px;
-        display: block;
-    }
-
-    #blc {
-        float: left;
-        padding-left: 10px;
-        padding-top: 350px;
-
-    }
-
-    #bl {
-        background-color: #006161;
-        height: 750px;
-        padding: 25px 25px;
-        border-radius: 25px;
-        background-image: linear-gradient(to top, #002132, #5789a5);
-    }
-
-    #blw {
-        background-color: #ffffff;
-        height: 500px;
-        padding: 25px 25px;
-        border-radius: 25px;
-
-    }
-
-    #blw1 {
-        background-color: #4d747e;
-        height: 650px;
-        padding: 25px 25px;
-        border-radius: 25px;
-
-    }
-
-    #block2 {
-        background-color: #006161;
-        height: 700px;
-        padding: 25px 25px;
-        border-radius: 25px;
-        margin-top: 20px;
-    }
-
-    .content {
-        display: none;
-    }
-
-    .img2 {
-        align-items: center;
-        background-color: #ffffff;
-        height: 100px;
-        border-radius: 25px;
-        width: 60%;
-        height: 650px;
-        margin-left: 0px;
-        float: left;
-    }
-
-    .img1 {
-        align-items: center;
-        width: 560px;
-        height: 490px;
-        float: right;
-        margin-right: 10px;
-        margin-top: 0px;
-        border-radius: 100%;
-    }
-
-    #left1 {
-        float: left;
-        margin-left: 30px;
-    }
-
-    #right1 {
-        float: right;
-        margin-right: 30px;
-    }
-
-    #center1 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .block3 {
-        background-color: #295a5f;
-        height: 1000px;
-        width: 90%;
-        padding: 25px 25px;
-        background-image: linear-gradient(to top, #011e42, #33789e);
-        border-radius: 25px;
-        margin-top: 50px;
-        border-style: groove;
-        border-width: 10px;
-    }
-
-    .block4 {
-        background-color: #295a5f;
-        height: 900px;
-        width: 90%;
-        padding: 25px 25px;
-        background-image: linear-gradient(to top, #10058b, #1d648b);
-        border-radius: 25px;
-        margin-top: 50px;
-        border-style: groove;
-        border-width: 10px;
-    }
-</style>
-
-
 
 <body>
     <div id="fimg">
