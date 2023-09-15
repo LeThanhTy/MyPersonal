@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<meta charset="UTF-8">
+
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="Png/resume.png">
     <title>My Personal</title>
 
@@ -18,11 +20,7 @@
 
         ol {
             list-style-type: square;
-            display: inline-block;
-            padding-right: 140px;
-            margin-left: 20px;
-            margin-top: 0px;
-            padding-bottom: 300px;
+            display: block;
             border-radius: 25px;
             border-style: solid;
             border-color: white;
@@ -39,7 +37,7 @@
         li {
             line-height: 2.5;
             color: white;
-            font-size: 35px;
+            font-size: 100%;
             margin: 20px;
         }
 
@@ -50,15 +48,22 @@
 
         nav {
             background-color: #01585d;
-            text-align: center;
-            padding: 40px;
+            text-align: left;
+            padding: 20px;
         }
 
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 40px;
-            font-size: 30px;
+            font-size: 25px;
+            scale: inherit;
+            display: inline-block;
+            margin-top: 0px;
+            line-height: 40px;
+            padding: 40px;
+            margin-left: 0px;
+            margin-right: 0px;
         }
 
         .container {
@@ -67,7 +72,7 @@
 
         #fimg {
             background-color: #006574;
-            width: 100% 50px;
+            width: 100% 20px;
             padding: 25px 25px;
             background-image: linear-gradient(to bottom, #1f3b5e, #33789e);
         }
@@ -80,11 +85,11 @@
 
         h2 {
             color: rgb(0, 64, 38);
-            font-size: 50px;
-
+            font-size: 25px;
+            -webkit-text-size-adjust: 100%;
             font-family: Tahoma, sans-serif;
             text-align: left;
-            margin-left: 100px;
+            margin-left: 10px;
         }
 
         h3 {
@@ -121,21 +126,21 @@
 
         p {
             line-height: 1.25;
-            font-size: 35px;
-            margin-top: 10px;
+            font-size: 100%;
             display: block;
+            margin-top: 50px;
+            margin-left: 0px;
+            text-align: left;
+
         }
 
         #blc {
-            float: left;
-            padding-left: 10px;
-            padding-top: 350px;
-
+            font-stretch: condensed;
         }
 
         #bl {
             background-color: #006161;
-            height: 750px;
+            height: 100%;
             padding: 25px 25px;
             border-radius: 25px;
             background-image: linear-gradient(to top, #002132, #5789a5);
@@ -143,10 +148,12 @@
 
         #blw {
             background-color: #ffffff;
-            height: 500px;
+            height: 100%;
             padding: 25px 25px;
             border-radius: 25px;
-
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         #blw1 {
@@ -170,24 +177,23 @@
         }
 
         .img2 {
-            align-items: center;
             background-color: #ffffff;
-            height: 100px;
             border-radius: 25px;
-            width: 60%;
-            height: 650px;
-            margin-left: 0px;
-            float: left;
+            width: 50%;
+            height: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .img1 {
-            align-items: center;
-            width: 560px;
-            height: 490px;
-            float: right;
-            margin-right: 10px;
-            margin-top: 0px;
+            width: 30%;
+            height: 30%;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
             border-radius: 100%;
+            display: block;
         }
 
         #left1 {
@@ -207,7 +213,7 @@
 
         .block3 {
             background-color: #295a5f;
-            height: 1000px;
+            height: 100%;
             width: 90%;
             padding: 25px 25px;
             background-image: linear-gradient(to top, #011e42, #33789e);
@@ -256,25 +262,19 @@
         <section id="content-about" class="content">
             <div id="bl">
 
-                <header>
 
-                    <h3>Thông tin cá nhân</h3>
-
-                </header>
-
+                <h3>Thông tin cá nhân</h3>
                 <div id="blw">
-                    <article>
-                        <div id="blc">
-                            <b>
-                                <p>Tên: Lê Thanh Tỷ</p>
-                                <p>MSSV: 47.01.103.106</p>
-                            </b>
-                        </div>
-                    </article>
+                    <img src="/Png/img_avatar3.png" alt="ảnh đại diện" class="img1">
 
-                    <div>
-                        <img src="Png/img_avatar3.png" alt="ảnh đại diện" class="img1">
+
+                    <div id="blc">
+                        <b>
+                            <p>Tên: Lê Thanh Tỷ</p>
+                            <p>MSSV: 47.01.103.106</p>
+                        </b>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -305,19 +305,17 @@
         </section>
 
         <section id="content-interests" class="content">
-            <div style="background-color: rgb(122, 177, 197); padding: 50px;border-radius: 25px;">
+            <div style="background-color: rgb(122, 177, 197); padding: 5%;border-radius: 25px;">
                 <div style="background-color: rgb(255, 255, 255); padding: 20px 25px; border-radius: 25px;">
                     <h2>Sở thích</h2>
                 </div>
                 <div id="block2">
                     <div id="blw1">
+
+                        <img src="Png/hobby.png" alt="Ảnh sở thích" class="img2">
+
+
                         <div>
-                            <img src="Png/hobby.png" alt="Ảnh sở thích" class="img2">
-
-                        </div>
-                        <div>
-
-
                             <ol>
                                 <li>
                                     Thích chơi game
